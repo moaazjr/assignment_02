@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  background-color: black;
+  padding: 6px;
+}
+
+header .logo-search-bar {
+  float: left;
+}
+
+header .logo-search-bar a,
+header .logo-search-bar nav {
+  float: left;
+}
+
+header div a img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+header div input {
+  height: 30px;
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin-left: 8px;
+  outline: none;
+}
+
+header nav {
+  float: right;
+  margin-right: 9px;
+}
+
+header nav ul {
+  margin-top: 6px;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #eaebed;
+}
+
+section {
+  margin-top: 25px;
+}
+
+section .photos {
+  margin-left: 20px;
+}
+
+section .photos .photo {
+  float: left;
+  margin-right: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+section .photos .photo img {
+  border-radius: 50%;
+  width: 40px;
+  margin: 25px 0 0 10px;
+}
+
+section .photos .photo-1 {
+  background-image: url("./1.jpg");
+  width: 300px;
+  height: 400px;
+}
+
+section .photos .photo-2 {
+  background-image: url("./2.jpg");
+  width: 300px;
+  height: 400px;
+}
+
+section .photos .photo-3 {
+  background-image: url("./3.jpg");
+  width: 300px;
+  height: 400px;
+}
+
+section .photos .photo-4 {
+  background-image: url("./4.jpg");
+  width: 300px;
+  height: 400px;
+}
+
+footer {
+  margin: 30px auto 10px;
+  background-color: gray;
+  height: 50px;
+  border-radius: 6px;
+  width: 97.5%;
+}
+
+footer img {
+  border-radius: 50%;
+}
+
+footer img,
+footer input {
+  float: left;
+  height: 30px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+footer input {
+  width: 75%;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  padding: 8px;
+}
